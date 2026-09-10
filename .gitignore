@@ -1,0 +1,13 @@
+# Terraform local execution files
+.terraform/
+
+# Terraform state files (NEVER COMMIT)
+*.tfstate
+*.tfstate.*
+
+# Variable files (environment-specific)
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
